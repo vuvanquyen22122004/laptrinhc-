@@ -1,0 +1,46 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int m,s;
+    cin>>m>>s;
+    if(s>9*m||(s==0&&m>1)){
+        cout<<"-1 -1"<<endl;
+    return 0;
+    }
+    int tmp=s;
+    int lon[m]={0},be[m]={0};
+    for(int i=1;i<=m;i++){
+        if(s>=9){
+                lon[i]=9;
+        s-=9;
+
+        }
+        else if(s!=0){
+            lon[i]=s;
+            s=0;
+        }
+        else break;
+    }
+    tmp--;
+   for(int i=m;i>=1;i--){
+    if(tmp>=9){
+        be[i]=9;
+        tmp-=9;
+    }
+    else if(tmp!=0){
+        be[i]=tmp;
+        tmp=0;
+    }
+
+   else break;
+
+}
+be[1]+=1N;
+for(int i=1;i<=m;i++){
+    cout<<lon[i];
+}
+cout<<" ";
+for(int i=1;i<=m;i++){
+    cout<<be[i];
+}
+}

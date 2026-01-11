@@ -1,0 +1,1 @@
+{"name":"Local: dothicanh","url":"c:\\Lap Trinh C++\\toan roi rac\\dothicanh.cpp","tests":[{"id":1744908120700,"input":"5 9\n1 2 \n1 3\n1 4\n2 3\n2 4\n2 5\n3 4\n3 5\n4 5\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Lap Trinh C++\\toan roi rac\\dothicanh.cpp","group":"local","local":true}
